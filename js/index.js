@@ -1,9 +1,6 @@
 const gloAcademyList = document.querySelector(".glo-academy-list");
 const trendingList = document.querySelector(".trending-list");
 const musicList = document.querySelector(".music-list");
-const API_KEY = "AIzaSyD0sMe0l_xe7aIxN1ctT4DoAvopRwX1QaA";
-const CLIENT_ID = "118018668082-irallb30fmncoc0n9uih2lp0rlq5dsek.apps.googleusercontent.com";
-const SECRET = "Xkc-1KluTwdslirpazaLx7ya";
 
 const createCard = (dataVideo) => {
         const imgUrl = dataVideo.snippet.thumbnails.high.url;
